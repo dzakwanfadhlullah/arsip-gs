@@ -1,0 +1,60 @@
+# Dependencies and generated output
+/node_modules/
+/.next/
+/out/
+/dist/
+/coverage/
+/.vercel/
+*.tsbuildinfo
+/next-env.d.ts
+*.log
+
+# Environment settings, credentials, and private keys
+.env*
+!/.env.example
+.npmrc
+.netrc
+.npmrc.local
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.kdbx
+id_rsa*
+id_ed25519*
+
+# Local databases, uploads, and exports
+data/
+uploads/
+backups/
+exports/
+private/
+*.sqlite*
+*.db
+*.db-*
+*.bak
+*.dump
+*.zip
+
+# User documents and legacy seed copies. Only synthetic fixtures ship.
+*.pdf
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.doc
+*.docx
+*.pptx
+/seed-assets/*
+!/seed-assets/demo-data.csv
+!/seed-assets/fixtures/
+/seed-assets/fixtures/*
+!/seed-assets/fixtures/demo-daftar.xlsx
+!/seed-assets/fixtures/demo-lampiran.pdf
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
